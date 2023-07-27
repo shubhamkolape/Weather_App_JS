@@ -12,6 +12,13 @@ The Weather App is a simple web application built using JavaScript that provides
 
 - Search functionality: Users can input the name of a city or location to get weather details specific to that area.
 
+
+## Preview
+
+[Weather App Live Preview](https://weatherforcastapp.netlify.app/)
+
+
+
 ## How to Use
 
 1. Clone the repository to your local machine using the following command:
@@ -29,9 +36,7 @@ The Weather App uses the following dependency:
 
 - [OpenWeatherMap API](https://openweathermap.org/api): The app fetches weather data from this API to provide real-time weather information.
 
-## Preview
 
-![Weather App Preview](./weather.jpg) 
 
 ## Contributing
 
