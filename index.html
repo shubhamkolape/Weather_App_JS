@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Orbitron&family=Poppins:ital,wght@0,200;0,400;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <form onsubmit="getData(event)" class="searchData">
+        <div class="main">
+            <div class="searchbar">
+                <input type="search" name="searchbar" id="inputbox" placeholder="Enter the City name" >
+                <button class="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+            </div>
+             <div class="clock">
+                <p class="time">Time</p>
+            </div>
+        </div>
+    </form>
+        
+
+    <div class="box">
+        <div class="main-box">
+         <div class="main-info">
+            <h2>
+                <span class="City">City</span>,
+                <span class="state">State</span>,
+                <span class="country"> Country</span>
+            </h2>
+            <h3 class="date">Date</h3>
+        </div>
+        <div class="temp-box flex">
+            <div class="temp-img ">
+                <img class="cloudy" src="./images/cloudy.png" alt="">
+            </div>
+            <div class="temperture1">
+                <div class="flex">
+                    <h1 id="temp">00</h1>
+                    <h1><sup>o</sup></h1>
+                    
+                </div>
+
+                <p class="condition">Condition</p>
+            </div>
+            <div class="humimg">
+                <i cl   ass="fa-solid fa-temperature-three-quarters"></i>
+            </div>
+            <div class="humidity">
+                <div class="flex">
+                    <h1 id="humidity">00</h1>
+                    <h1><sup>o</sup></h1>
+                </div>
+                <p>Humidity</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="side-box">
+            <div class="box1">
+                <div class="flex">
+                    <h1 class="high-temp">00</h1>
+                    <h1><sup>o</sup></h1>
+                </div>
+                <p>High Temp.</p>
+            </div>
+            <div class="box2">
+                <div class="flex">
+                    <h1 class="wind">0</h1>
+                    <h1>mph</h1>
+                </div>
+                <p>Wind</p>
+            </div>
+            <div class="box3">
+                <h1 class="Sunrise">00.00</h1>
+                <p>Sunrise</p>
+            </div>
+            <div class="box4">
+                <div class="flex">
+                    <h1 class="low-temp">00</h1>
+                    <h1><sup>o</sup></h1>
+                </div>
+                <p>Low Temp.</p>
+            </div>
+            <div class="box5">
+                <div class="flex">
+                    <h1 class="rain">00</h1>
+                    <h1>%</h1>
+                </div>
+               
+                <p>Rain</p>
+            </div>
+            <div class="box6">
+                <h1 class="sunset">00.00</h1>
+                <p>Sunset</p>
+            </div>
+        </div>
+    </div>
+        
+
+    <div class="weathers">
+        <div class="weather">
+            <h2>Today's Weather</h2>
+        </div>
+        <div class="forecast">
+            <div class="forecast1">
+                <p>07:00 AM</p>
+                <img class="img7 img1" src="./images/cloudy.png" alt="">
+                <div class="flex">
+                    <p class="temp7">00</p>
+                    <p><sup>o</sup></p>
+                </div>
+            </div>
+            <div class="forecast2">
+                 <p>08.00 AM</p>
+                <img class="img8 img1" src="./images/cloudy.png" alt="">
+                <div class="flex">
+                    <p class="temp8">00</p>
+                    <p><sup>o</sup></p>
+                </div>
+            </div>
+            <div class="forecast3">
+                 <p>09:00 AM</p>
+                <img class="img9 img1" src="./images/cloudy.png" alt="">
+                <div class="flex">
+                    <p class="temp9">00</p>
+                    <p><sup>o</sup></p>
+                </div>
+
+            </div>
+            <div class="forecast4">
+                 <p>10:00 AM</p>
+                <img class="img10 img1" src="./images/cloudy.png" alt="">
+                <div class="flex">
+                    <p class="temp10">00</p>
+                    <p><sup>o</sup></p>
+                </div>
+            </div>
+            <div class="forecast5">
+                 <p>11:00 AM</p>
+                <img class="img11 img1" src="./images/cloudy.png" alt="">
+                <div class="flex">
+                    <p class="temp11">00</p>
+                    <p><sup>o</sup></p>
+                </div>
+            </div>
+            <div class="forecast6">
+                 <p>12:00 PM</p>
+                <img class="img12 img1" src="./images/cloudy.png" alt="">
+                <div class="flex">
+                    <p class="temp12">00</p>
+                    <p><sup>o</sup></p>
+                </div>
+            </div>
+            <div class="forecast7">
+                 <p>01:00 PM</p>
+                <img class="img13 img1" src="./images/cloudy.png" alt="">
+                <div class="flex">
+                    <p class="temp13">00</p>
+                    <p><sup>o</sup></p>
+                </div>
+            </div>
+            <div class="forecast8">
+                 <p>02:00 PM</p>
+                <img class="img14 img1" src="./images/cloudy.png" alt="">
+                <div class="flex">
+                    <p class="temp14">00</p>
+                    <p><sup>o</sup></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            
+        
+</body>
+<script src="script.js"></script>
+</html>
