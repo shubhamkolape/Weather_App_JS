@@ -34,7 +34,7 @@ The Weather App is a simple web application built using JavaScript that provides
 
 The Weather App uses the following dependency:
 
-- [OpenWeatherMap API](https://openweathermap.org/api): The app fetches weather data from this API to provide real-time weather information.
+- [weatherapi API](https://www.weatherapi.com/): The app fetches weather data from this API to provide real-time weather information.
 
 
 
@@ -48,7 +48,7 @@ This project is licensed under the [MIT License](LICENSE). Feel free to modify a
 
 ## Acknowledgments
 
-- Special thanks to the creators of the OpenWeatherMap API for providing the data source for this app.
+- Special thanks to the creators of the Weatherapi API for providing the data source for this app.
 
 
     Thank you for checking out the Weather App! Enjoy and stay weather-informed!
