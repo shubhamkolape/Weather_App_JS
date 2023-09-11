@@ -2,6 +2,13 @@
 
 ![Weather App Preview](./weather.jpg) 
 
+
+## Preview
+
+[Weather App Live Preview](https://weatherforcastapp.netlify.app/)
+
+
+
 The Weather App is a simple web application built using JavaScript that provides real-time weather information for a specified location. It utilizes the OpenWeatherMap API to fetch weather data and display it in an easy-to-read format for users.
 
 ## Features
@@ -12,10 +19,6 @@ The Weather App is a simple web application built using JavaScript that provides
 
 - Search functionality: Users can input the name of a city or location to get weather details specific to that area.
 
-
-## Preview
-
-[Weather App Live Preview](https://weatherforcastapp.netlify.app/)
 
 
 
