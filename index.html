@@ -7,7 +7,10 @@
     <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Orbitron&family=Poppins:ital,wght@0,200;0,400;1,400&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="container">
@@ -15,12 +18,12 @@
         <div class="main">
             <div class="searchbar">
                 <input type="search" name="searchbar" id="inputbox" placeholder="Enter the City name" >
-                <button class="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button type="submit" class="button"><i class="fa-solid fa-magnifying-glass"></i></button>
                 <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
             </div>
-             <div class="clock">
+             <!-- <div class="clock">
                 <p class="time">Time</p>
-            </div>
+            </div> -->
         </div>
     </form>
         
@@ -34,6 +37,10 @@
                 <span class="country"> Country</span>
             </h2>
             <h3 class="date">Date</h3>
+            <h3 class="date">
+                <span class="day">day</span>,
+                <span class="vel">Time</span>
+            </h3>
         </div>
         <div class="temp-box flex">
             <div class="temp-img ">
@@ -42,7 +49,7 @@
             <div class="temperture1">
                 <div class="flex">
                     <h1 id="temp">00</h1>
-                    <h1><sup>o</sup></h1>
+                    <h1>&deg;C</h1>
                     
                 </div>
 
@@ -54,7 +61,7 @@
             <div class="humidity">
                 <div class="flex">
                     <h1 id="humidity">00</h1>
-                    <h1><sup>o</sup></h1>
+                    <h1>&deg;C</h1>
                 </div>
                 <p>Humidity</p>
             </div>
@@ -65,7 +72,7 @@
             <div class="box1">
                 <div class="flex">
                     <h1 class="high-temp">00</h1>
-                    <h1><sup>o</sup></h1>
+                    <h1>&deg;C</h1>
                 </div>
                 <p>High Temp.</p>
             </div>
@@ -83,7 +90,7 @@
             <div class="box4">
                 <div class="flex">
                     <h1 class="low-temp">00</h1>
-                    <h1><sup>o</sup></h1>
+                    <h1>&deg;C</h1>
                 </div>
                 <p>Low Temp.</p>
             </div>
@@ -109,11 +116,11 @@
         </div>
         <div class="forecast">
             <div class="forecast1">
-                <p>07:00 AM</p>
+                <p>06:00 AM</p>
                 <img class="img7 img1" src="./images/cloudy.png" alt="">
                 <div class="flex">
                     <p class="temp7">00</p>
-                    <p><sup>o</sup></p>
+                    <p>&deg;C</p>
                 </div>
             </div>
             <div class="forecast2">
@@ -121,56 +128,56 @@
                 <img class="img8 img1" src="./images/cloudy.png" alt="">
                 <div class="flex">
                     <p class="temp8">00</p>
-                    <p><sup>o</sup></p>
+                    <p>&deg;C</p>
                 </div>
             </div>
             <div class="forecast3">
-                 <p>09:00 AM</p>
+                 <p>10:00 AM</p>
                 <img class="img9 img1" src="./images/cloudy.png" alt="">
                 <div class="flex">
                     <p class="temp9">00</p>
-                    <p><sup>o</sup></p>
+                    <p>&deg;C</p>
                 </div>
 
             </div>
             <div class="forecast4">
-                 <p>10:00 AM</p>
+                 <p>12:00 PM</p>
                 <img class="img10 img1" src="./images/cloudy.png" alt="">
                 <div class="flex">
                     <p class="temp10">00</p>
-                    <p><sup>o</sup></p>
+                    <p>&deg;C</p>
                 </div>
             </div>
             <div class="forecast5">
-                 <p>11:00 AM</p>
+                 <p>02:00 PM</p>
                 <img class="img11 img1" src="./images/cloudy.png" alt="">
                 <div class="flex">
                     <p class="temp11">00</p>
-                    <p><sup>o</sup></p>
+                    <p>&deg;C</p>
                 </div>
             </div>
             <div class="forecast6">
-                 <p>12:00 PM</p>
+                 <p>04:00 PM</p>
                 <img class="img12 img1" src="./images/cloudy.png" alt="">
                 <div class="flex">
                     <p class="temp12">00</p>
-                    <p><sup>o</sup></p>
+                    <p>&deg;C</p>
                 </div>
             </div>
             <div class="forecast7">
-                 <p>01:00 PM</p>
+                 <p>06:00 PM</p>
                 <img class="img13 img1" src="./images/cloudy.png" alt="">
                 <div class="flex">
                     <p class="temp13">00</p>
-                    <p><sup>o</sup></p>
+                    <p>&deg;C</p>
                 </div>
             </div>
             <div class="forecast8">
-                 <p>02:00 PM</p>
+                 <p>08:00 PM</p>
                 <img class="img14 img1" src="./images/cloudy.png" alt="">
                 <div class="flex">
                     <p class="temp14">00</p>
-                    <p><sup>o</sup></p>
+                    <p>&deg;C</p>
                 </div>
             </div>
         </div>
